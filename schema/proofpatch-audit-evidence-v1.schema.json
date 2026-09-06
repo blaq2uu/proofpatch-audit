@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:proofpatch:audit-evidence:v1",
+  "title": "ProofPatch Independent Audit Evidence v1",
+  "description": "Independent audit evidence envelope for ProofPatch consensus-gated GenLayer upgrade proposals.",
+  "type": "object",
+  "required": [
+    "schema",
+    "kind",
+    "evidence_id",
+    "issuer",
+    "target",
+    "parent_sha256",
+    "candidate_sha256",
+    "policy_fingerprint",
+    "published_at",
+    "expires_at",
+    "verdict",
+    "independent_review"
+  ],
+  "properties": {
+    "schema": {
+      "const": "proofpatch-evidence-v1"
+    },
+    "kind": {
+      "const": "audit"
+    },
+    "evidence_id": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 160
+    },
+    "issuer": {
+      "const": "blaq2uu/proofpatch-audit"
+    },
+    "target": {
+      "type": "string",
+      "pattern": "^0x[0-9a-fA-F]{40}$"
+    },
+    "parent_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "candidate_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "policy_fingerprint": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "published_at": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "expires_at": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "verdict": {
+      "const": "PASS"
+    },
+    "independent_review": {
+      "const": true
+    }
+  },
+  "additionalProperties": true
+}
