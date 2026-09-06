@@ -1,0 +1,29 @@
+{
+  "candidate_sha256": "013f8ae10b9f38aaad7689168b94335a514a9c30882f4a03daa3eb546cda83ea",
+  "evidence_id": "proofpatch-safe-v2-audit-20260906T110244Z-013f8ae10b9f",
+  "expires_at": 1788778964,
+  "independent_review": true,
+  "issuer": "blaq2uu/proofpatch-audit",
+  "kind": "audit",
+  "parent_sha256": "7607cce754d8f7905eed629b0e8af0f3ce51bd405b3b4ba9db19e5d831209f19",
+  "policy_fingerprint": "0f30dea3a111d4d6ba13b68bb667338618c963ea5258049303a2492be73fc1ab",
+  "published_at": 1788692564,
+  "review_packet_sha256": "18573577fa341236cfaabae928ec76718bc12e4b6224d69f112bfbe9637271fb",
+  "schema": "proofpatch-evidence-v1",
+  "semantic_checks": {
+    "consensus_binding_preserved": true,
+    "constitution_satisfied": true,
+    "evidence_trust_preserved": true,
+    "finality_safety_preserved": true,
+    "liveness_preserved": true,
+    "no_hidden_value_transfer": true,
+    "no_privilege_escalation": true,
+    "storage_layout_compatible": true,
+    "upgrade_authority_preserved": true,
+    "user_rights_preserved": true
+  },
+  "semantic_decision_record_sha256": "0fcb1c4e9f3bd204d579033f80e13984fc09ba2bfbab9bfd4de0d7f43bc619b3",
+  "target": "0xe7165dEA0F712E3161ADa773c41755d79F1e696B",
+  "unresolved_findings": [],
+  "verdict": "PASS"
+}
