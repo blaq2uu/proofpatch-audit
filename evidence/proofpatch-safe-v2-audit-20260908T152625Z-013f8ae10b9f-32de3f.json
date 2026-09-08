@@ -1,0 +1,38 @@
+{
+  "candidate_sha256": "013f8ae10b9f38aaad7689168b94335a514a9c30882f4a03daa3eb546cda83ea",
+  "candidate_version": "2.0.0",
+  "evidence_id": "proofpatch-safe-v2-audit-20260908T152625Z-013f8ae10b9f-32de3f",
+  "expires_at": 1788967585,
+  "independent_review": true,
+  "issuer": "blaq2uu/proofpatch-audit",
+  "kind": "audit",
+  "parent_sha256": "7607cce754d8f7905eed629b0e8af0f3ce51bd405b3b4ba9db19e5d831209f19",
+  "parent_version": "1.0.0",
+  "policy_fingerprint": "18c5d7e9852799896fb7fe3ee11ce8abc1104122adbb4afcee22e163fb424e50",
+  "published_at": 1788881185,
+  "review_context": {
+    "current_governor": "0x20a14189cb68d1878eaA9253b14983ace1684aA6",
+    "current_source_commit": "61ffd044c5e9e6e25092e8ddd8886f301ad19d24",
+    "packet_embedded_binding_superseded": true,
+    "packet_embedded_policy_fingerprint": "35e807ec31917fb87d4d29ba1272bd7500cb62932d7e98dd1007ffd86f396255",
+    "packet_embedded_target": "0x9E73EBCdcF7b7433a64Bd2078bFbb1eaa6b23D74",
+    "review_packet_sha256": "875afea7290eba9fabc5dbc67bc174e1b4a21dd076fe1b6d9316bccea7cddeeb",
+    "scope_note": "The packet's deployment identifiers are superseded. The exact parent/candidate source bytes were independently reviewed and match the replacement workflow's frozen hashes; this evidence is bound to the current replacement target and policy fingerprint."
+  },
+  "schema": "proofpatch-evidence-v1",
+  "semantic_checks": {
+    "consensus_binding_preserved": true,
+    "constitution_satisfied": true,
+    "evidence_trust_preserved": true,
+    "finality_safety_preserved": true,
+    "liveness_preserved": true,
+    "no_hidden_value_transfer": true,
+    "no_privilege_escalation": true,
+    "storage_layout_compatible": true,
+    "upgrade_authority_preserved": true,
+    "user_rights_preserved": true
+  },
+  "target": "0x7e22B7c72B196e0db60785344570Fb558bD3b33A",
+  "unresolved_findings": [],
+  "verdict": "PASS"
+}
